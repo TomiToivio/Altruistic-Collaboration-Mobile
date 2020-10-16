@@ -1,0 +1,25 @@
+{
+  "name": "altruistic-collaboration-mobile",
+  "version": "1.0.0",
+  "description": "Mobile collaboration platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomiToivio/Altruistic-Collaboration-Mobile.git"
+  },
+  "keywords": [
+    "mobile",
+    "collaboration",
+    "cordova",
+    "node"
+  ],
+  "author": "Tomi Toivio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomiToivio/Altruistic-Collaboration-Mobile/issues"
+  },
+  "homepage": "https://github.com/TomiToivio/Altruistic-Collaboration-Mobile#readme"
+}
