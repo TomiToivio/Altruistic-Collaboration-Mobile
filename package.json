@@ -1,25 +1,27 @@
 {
-  "name": "altruistic-collaboration-mobile",
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
   "version": "1.0.0",
-  "description": "Mobile collaboration platform",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TomiToivio/Altruistic-Collaboration-Mobile.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "mobile",
-    "collaboration",
-    "cordova",
-    "node"
+    "ecosystem:cordova"
   ],
-  "author": "Tomi Toivio",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TomiToivio/Altruistic-Collaboration-Mobile/issues"
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-whitelist": "^1.3.4"
   },
-  "homepage": "https://github.com/TomiToivio/Altruistic-Collaboration-Mobile#readme"
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
 }
